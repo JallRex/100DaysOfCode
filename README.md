@@ -1,10 +1,9 @@
 # 100DaysOfCode
-My 100 days of code repo
+My 100 days of code in "this" repo includes 40+ projects with JS, CSS and HTML.
+
 
 Project ideas:
 https://www.freecodecamp.org/news/javascript-projects-for-beginners/
-
-Attempted without assistance of the existing solutions. Noted down if "cheated"
 
 Day 1. Color flipper
 - Created files and structure.
