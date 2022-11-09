@@ -1,7 +1,8 @@
 # 100DaysOfCode
-###My 100 days of code in "this" repo includes 40+ projects with JS, CSS and HTML.
 
- *Parts of the projects will have pre-made css and boilerplate html as it's focused on JS*
+### My 100 days of code in "this" repo includes 40+ projects with JS, CSS and HTML.
+
+ *MOST of the projects will have pre-made css and boilerplate html as it's focused on JS* (atleast P 1-15)
 
 ### Project ideas:
 *https://www.freecodecamp.org/news/javascript-projects-for-beginners/*
