@@ -53,5 +53,6 @@
 - wrapped up Navbar.
 
 **Finished Navbar**
+
 **Starting Sidebar**
 
