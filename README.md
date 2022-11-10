@@ -4,13 +4,15 @@
 
  *MOST of the projects will have pre-made css and boilerplate html as it's focused on JS* (atleast P 1-15)
 
-### Project ideas:
+#### Project ideas:
 *https://www.freecodecamp.org/news/javascript-projects-for-beginners/*
 
-## Specific ideas:
+### Specific ideas:
 - Using dribble - recreate "a" site in Css.
 - Pull a free API (https://github.com/public-apis/public-apis) & display it on a site :)
 - 
+
+
 
 
 
@@ -24,7 +26,7 @@
 - Fixed minor bug in simple ColorChanger
 - Created the app script to make "hex" work as it should.
 
-**Finished Color Changer!**
+**Finished Color Changer**
 
 **Starting work on Counter**
 - Creating folder and files
@@ -54,5 +56,9 @@
 
 **Finished Navbar**
 
-**Starting Sidebar**
+**Starting Sidebar (project 5)**
+
+**Finished Sidebar**
+
+**Starting Modal**
 
