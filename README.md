@@ -7,7 +7,16 @@
 ### Project ideas:
 *https://www.freecodecamp.org/news/javascript-projects-for-beginners/*
 
-## Day 1. ColorChanger
+## Specific ideas:
+- Using dribble - recreate "a" site in Css.
+- Pull a free API (https://github.com/public-apis/public-apis) & display it on a site :)
+- 
+
+
+
+# Days: 
+
+## Day 1. ColorChanger (07.nov)
 - Created files and structure.
 - Started project 1. Color flipper
 
@@ -34,3 +43,15 @@
 - minor pause to complete flexfrog lvl 1-24
 
 **Finished Reviews**
+
+**Started work on Navbar**
+- created files etc, did not commit though.
+
+## Day 4. (10.Nov)
+- Updated names of all folders to have numbers.
+- Updated readme with "specific ideas" & Day 4 info.
+- wrapped up Navbar.
+
+**Finished Navbar**
+**Starting Sidebar**
+
