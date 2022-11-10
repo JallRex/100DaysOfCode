@@ -66,5 +66,6 @@
 
 **Started Questions (project 7)**
  - attempted two variants of dom manipulation. Traversing and using selectors inside elements.
+ 
 **Finished Questions**
 
