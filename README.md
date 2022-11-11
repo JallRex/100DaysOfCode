@@ -72,3 +72,11 @@
 ## Day 5. (11.Nov)
 
 **Starting Menu**
+- Created a variant of the final JS code. *Commented out*
+- Implementing the other as well (Dynamically adding additional category)
+- Naming for the different files are simple "Index1.html and app1.js" are the original static solution. Where as index.html and app.js is the dynamic one. By dynamic i mean: If you add another category it pops up as an option :)
+
+**Finished menu**
+
+
+
