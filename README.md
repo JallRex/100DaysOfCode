@@ -64,8 +64,11 @@
 
 **Finished Modal**
 
-**Started Questions (project 7)**
+**Started Questions aka FAQ (project 7)**
  - attempted two variants of dom manipulation. Traversing and using selectors inside elements.
  
 **Finished Questions**
 
+## Day 5. (11.Nov)
+
+**Starting Menu**
