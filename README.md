@@ -78,5 +78,12 @@
 
 **Finished menu**
 
+## Day 6. (12.Nov)
+**Started Video project**
+- Added files needed. 
+- Planned for a short project today. (Video background.) In theory it should be simple.
+- Simple it was :D
+- Added videobackground with preloader gif in case of bad loadtimes. Site also has a dark overlay to accomodate white text, and has a button for controls.
 
+**Finished Video project**
 
