@@ -92,4 +92,7 @@
 
 - added files and structure
 - working on dynamically updating height of navbar so that more or less links can be added.
+- added scroll functions to navigate the site better. made nav menu flexible and made sure that both smaller and bigger screens still navigate to the correct height on the site.
+- added auto close nav-menu on small devices when scrolling :)
 
+**Finished Scroll/Nav project**
