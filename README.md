@@ -87,3 +87,9 @@
 
 **Finished Video project**
 
+## Day 7. (13.Nov)
+**Started Scroll/Nav project.**
+
+- added files and structure
+- working on dynamically updating height of navbar so that more or less links can be added.
+
