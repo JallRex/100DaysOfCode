@@ -96,3 +96,9 @@
 - added auto close nav-menu on small devices when scrolling :)
 
 **Finished Scroll/Nav project**
+
+
+## Day 8. (14.nov)
+
+**Started tabs project**
+
