@@ -105,3 +105,7 @@
 - This was a tricky project. I was unable to get it working even though I compared the files exactly. It seems that some bugs were introduced, so after adjusting for a while I ended up using the files from the final project to compare against.
 
 **Finished project tabs**
+
+## Day 9. (15.Nov)
+
+**Starting Countdown project**
