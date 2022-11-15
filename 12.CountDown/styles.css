@@ -212,7 +212,8 @@ Countdown Timer
 .deadline-format {
   background: var(--clr-grey-1);
   color: var(--clr-white);
-  margin-right: 1rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
   width: 5rem;
   height: 5rem;
   display: grid;
@@ -229,4 +230,12 @@ Countdown Timer
   font-size: 2rem;
   margin-bottom: 0.25rem;
   letter-spacing: var(--spacing);
+}
+
+.epic{
+    margin-left: 5%;
+    background-color: whitesmoke;
+    color: red;
+    padding: 5px;
+    margin-top: 5%;
 }

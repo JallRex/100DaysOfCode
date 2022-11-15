@@ -109,3 +109,7 @@
 ## Day 9. (15.Nov)
 
 **Starting Countdown project**
+- I had a blast with this project as I decided to dabble a bit on my own and made it more fitting for me. The project now counts down to 0 on the day I'll have coded 100 days in a row (more to come)
+
+
+**Finished countdown project**
