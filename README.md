@@ -119,4 +119,5 @@
 
 **Started Paragraph project**
 - Simple quick motivation boosting project. Generates a random or fixed amount of paragraphs based on user input :)
+
 **Finished Paragraph project**
