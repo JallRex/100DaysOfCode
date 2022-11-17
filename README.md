@@ -121,3 +121,10 @@
 - Simple quick motivation boosting project. Generates a random or fixed amount of paragraphs based on user input :)
 
 **Finished Paragraph project**
+
+## Day 11. (17. Nov)
+
+**Started Grocery project**
+
+- this project involves storing values locally, allowing editing, and mantaining order when editing.
+- a fair bit bigger then the others.
