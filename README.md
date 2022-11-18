@@ -128,3 +128,10 @@
 
 - this project involves storing values locally, allowing editing, and mantaining order when editing.
 - a fair bit bigger then the others.
+
+## Day 12 (18 Nov)
+
+- Finishing Grocery project with the local storage features ++.
+
+
+**Finished grocery project**
