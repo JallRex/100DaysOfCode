@@ -135,3 +135,12 @@
 
 
 **Finished grocery project**
+
+## Day 13 (19.Nov)
+
+**Starting project Slider**
+
+- Project 15! End of simpler times soon i guess?
+- created a simple slider carousel that rotates pictures
+
+**Finished project Slider**
