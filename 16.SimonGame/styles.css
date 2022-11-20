@@ -1,0 +1,20 @@
+
+
+
+.btn-container{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.btns{
+    display: flex;
+    
+
+}
+
+
+.btn{
+    color: blue;
+}

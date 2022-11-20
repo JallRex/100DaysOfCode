@@ -144,3 +144,8 @@
 - created a simple slider carousel that rotates pictures
 
 **Finished project Slider**
+
+## Day 14. (20.Nov)
+
+- Relaxed day * 
+- simply planned the next project
