@@ -1,20 +1,57 @@
 
+body{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
 
 
-.btn-container{
-
+.sectionclass{
     display: flex;
     justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    background-color: lightgrey; 
+    height: 500px;
+    width: 500px;
 
 }
 
-.btns{
+ .game-container{    
     display: flex;
-    
+    flex-direction: column;
+}
+
+.pc-player{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns{
 
 }
 
 
 .btn{
     color: blue;
+    text-transform: capitalize;   
+}
+.btn :active{
+    color: aqua;
+}
+
+
+.scorediv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.hide{
+    visibility: hidden;
 }

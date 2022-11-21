@@ -149,3 +149,11 @@
 
 - Relaxed day * 
 - simply planned the next project
+
+**Started project 16**
+
+## Day 15. (21.Nov)
+
+- Working on Project 16. Basic functionality created.
+- - This project is built from scratch with no external "guide" as such it takes longer.
+- Making good progress though.
