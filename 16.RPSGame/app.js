@@ -1,6 +1,7 @@
 
 
-//dummy code
+//Function nightmare! 
+//Attempt at building without guidance or plan, testing as much as possible
 
 
 const options = ["rock", "paper", "scissor"]
@@ -12,6 +13,7 @@ let pcScore = 0
 
 const playerScore = document.querySelector(".p-Score")
 const pc = document.querySelector(".pc")
+const btnTxt = document.querySelector(".btnTxt")
 
 const rocky = document.querySelector(".rock-btn").addEventListener("click",rock)
 const papery = document.querySelector(".paper-btn").addEventListener("click",paper)
@@ -25,6 +27,7 @@ function rock(){
     logging()
     check()
     changeScore()
+    tryAgain()
 }
 
 function paper (){
@@ -34,6 +37,7 @@ function paper (){
     logging()
     check()
     changeScore()
+    tryAgain()
 }
 
 function scissor(){
@@ -43,19 +47,32 @@ function scissor(){
     check()
     logging()
     changeScore()
+    tryAgain()
 }
 
 function changeScore(){
-    playerScore.innerHTML = "Player score: " + pScore + " :: " + "PC Score: " + pcScore
-    pc.innerHTML = "PC selected: " + options[pcChoice]
+    playerScore.innerHTML = pScore + " <s><b>|</b></s> " + pcScore
+    pc.innerHTML = options[pcChoice]
 }
 
 function resetScore(){
     pScore = 0
     pcScore = 0
     changeScore()
+    pc.innerHTML = ""
+    tryAgain()
+    
 }
 
+function tryAgain(){
+    if (playerChoice === pcChoice){
+
+    btnTxt.innerHTML = "Try again"
+    }
+    if (playerChoice !== pcChoice){
+        btnTxt.innerHTML = "Choose:"
+    }
+}
 
 function maths(){
     pcChoice = Math.floor(Math.random() * options.length)
@@ -66,39 +83,32 @@ function maths(){
 function check(){
     // Player selects the same as PC*
     if(playerChoice === pcChoice){
-        console.log("Failed, both selected the same value")
-        
+        tryAgain();
     }
     // Player selects Rock *
     if(playerChoice === 0 && pcChoice === 1){
-        console.log("Player Looses")
         pcScore ++
         
     }
     if(playerChoice === 0 && pcChoice === 2){
-        console.log("Player Wins")
         pScore ++
         
     }
     // Player selects Paper *
     if(playerChoice === 1 && pcChoice === 0){
-        console.log("Player wins")
         pScore ++
         
     }
     if(playerChoice === 1 && pcChoice === 2){
-        console.log("Player Looses")
         pcScore ++
         
     }
     // Player selects Scissor *
     if(playerChoice === 2 && pcChoice === 0){
-        console.log("Player Looses")
         pcScore ++
         
     }
     if(playerChoice === 2 && pcChoice === 1){
-        console.log("Player wins")
         pScore ++
         
     }
@@ -115,11 +125,8 @@ function logging(){
     // console.log("------")
 }
 
-// add score to the page
-// fix css stuff!
-// add PC choice after player selected
-// "play" button that unhides rock, paper, scissor
-// Add hide / unhide to reset button
-// Add alert?
 
-//remove console.log(s)
+
+
+
+

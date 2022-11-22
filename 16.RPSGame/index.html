@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game</title>
     <link rel="stylesheet" href="./styles.css">
+    <script defer src="./app.js"></script>
 </head>
 <body>
     <section class="sectionclass">
 
         <div class="game-container">
             <div class="pc-player">
-                <p class="pc"></p>
+                <p class="pc1">PC Choice<h2 class="pc"></h2></p>
             </div>
             <div class="btns">
+                <p class="btnTxt">Choose:</p>
                 <button type="button" class="rock-btn btn" ><i>rock</i></button>
                 <button type="button" class="paper-btn btn"><i>Paper</i></button>
                 <button type="button" class="scissor-btn btn"><i>Scissor</i></button>
@@ -22,10 +24,12 @@
         </div>
 
         <div class="scorediv">
-            <p class="p-Score"></p>
-            <button type="button" class="btn resetScore" onClick="changeScore()">Reset</button>
+            <p class="pvp">Player </p>
+            <p class="pvp">Machine  </p>
         </div>
+        <h2 class="p-Score">0 <s><b>|</b></s>  0</h2>
+        <button type="button" class="resetScore btn" onClick="changeScore()">Reset</button>
     </section>
-    <script src="./app.js"></script>
+    
 </body>
 </html>

@@ -1,27 +1,40 @@
 
+
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    border-color: white;
+    border-width: 1px;
+}
+
 body{
     display: flex;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
 }
 
 
 .sectionclass{
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     flex-flow: column;
     align-items: center;
-    background-color: lightgrey; 
+    background-color: black; 
     height: 500px;
     width: 500px;
+    
 
 }
 
  .game-container{    
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
+    
+
 }
 
 .pc-player{
@@ -29,29 +42,74 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 0.5px;
+    border-style: solid;
+    margin-bottom: 25%;
+    border-radius: 3px;
+}
+
+.pc{
+    font-weight: bolder;
+    color: aquamarine;
+}
+
+.pc1{
+    font-weight: bold;
 }
 
 .btns{
-
+    margin-bottom: 10%;
 }
 
-
+.btnTxt{
+    display: flex;
+    justify-content: center;
+}
 .btn{
-    color: blue;
-    text-transform: capitalize;   
+    text-transform: capitalize;
+    border-radius: 15px;
+    border-color: white;
+    background-color: black;
+    height: 25px;
+    width: 150px;
+    
 }
-.btn :active{
-    color: aqua;
+.btn:active{
+    color: aquamarine;
+    border-color: aquamarine;
+}
+
+.resetScore:active{
+    color: red;
+    border-color: red;
 }
 
 
 .scorediv{
     display: flex;
-    flex-direction: column;
+    flex-flow: wrap;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    width: 150px;
 } 
 
-.hide{
-    visibility: hidden;
+
+.resetScore{
+    margin-top: 66px;
+}
+
+.pvp{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 5px;
+    width: 60px;
+    padding: 5px;
+    
+}
+
+.p-Score{
+    margin-top: 10px;
+    color: aquamarine;
 }

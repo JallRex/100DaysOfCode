@@ -157,3 +157,10 @@
 - Working on Project 16. Basic functionality created.
 - - This project is built from scratch with no external "guide" as such it takes longer.
 - Making good progress though.
+
+## Day 16 (22.Nov)
+
+**Finished project 16!**
+
+-It now works (though it could be prettier and most likely a alot simpler)
+I attempted to go over the project and reformat many of the functions, however I ran into issues with the loadorder and getting things working 100% again, so it was kept as is with a few more functions than I'd like.
