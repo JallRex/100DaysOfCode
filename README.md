@@ -164,3 +164,11 @@
 
 -It now works (though it could be prettier and most likely a alot simpler)
 I attempted to go over the project and reformat many of the functions, however I ran into issues with the loadorder and getting things working 100% again, so it was kept as is with a few more functions than I'd like.
+
+
+## Day 17. (23.Nov)
+
+**Started working on project 17**
+
+- working on figuring out what to build, but it seems that CSS skills needs refinement, so I will attempt to create something actually nice in css ;)
+

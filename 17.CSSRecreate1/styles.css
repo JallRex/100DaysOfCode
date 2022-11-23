@@ -1,0 +1,35 @@
+
+
+
+
+.header{
+
+    background-color: aqua;
+}
+
+.main{
+    display: grid;
+    place-items: center;
+}
+
+.section1{
+    background-color: aqua;
+
+}
+
+.containerS1{
+
+}
+
+.section2{
+    background-color: aqua;
+}
+
+.containerS2{
+
+}
+
+.footer{
+    display: grid;
+    background-color: bisque;
+}
