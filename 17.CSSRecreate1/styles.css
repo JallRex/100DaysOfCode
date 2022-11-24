@@ -1,35 +1,93 @@
 
-
-
-
-.header{
-
-    background-color: aqua;
+@font-face {
+    font-family: Proxima Nova;
+    src:local('Proxima Nova')
+    src: url("./fonts/Proxima\ Nova\ Font.otf") format('opentype');
 }
 
-.main{
-    display: grid;
-    place-items: center;
+
+body {
+    font-family: Proxima Nova,helvetica neue,helvetica,arial,sans-serif;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    color: white;
+    
 }
 
-.section1{
-    background-color: aqua;
+body{
+    background-image:url("forrest.jpg");
+}
+
+.navbar{
+    display: flex;
+    padding-bottom: 1rem;
+    background-color: rgba(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.logoImg{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    
+}
+
+.searchfield{
+    margin-top: 1rem;
+    place-self: center;
+    margin-left: 10%;
+    width: 45%;
+    height: 1.5rem;
+    opacity: 1;
 
 }
 
-.containerS1{
-
+.logInBtn{
+    margin-top: 1rem;
+    margin-left: 10%;
+    height: 2rem;
+    width: 6rem;
+    background-color: rgba(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    border-style: none;
+    color: white;
+    font-size: 14px;
+    font-family: Proxima Nova,helvetica neue,helvetica,arial,sans-serif;
+    
 }
 
-.section2{
-    background-color: aqua;
+.signUpBtn{
+    margin-top: 1rem;
+    margin-left: 1%;
+    height: 2rem;
+    width: 6rem;
+    border-radius: 10px;
+    border-style: none;
+    font-family: Proxima Nova,helvetica neue,helvetica,arial,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+} 
+
+.callout{
+    display: flex;
+    place-content: center;
+    margin-top: 22rem;
 }
 
-.containerS2{
-
+h1{
+    font-family: Proxima Nova,helvetica neue,helvetica,arial,sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 56px;
+    filter: brightness(200%) contrast(200%)
 }
 
-.footer{
-    display: grid;
-    background-color: bisque;
+.descr{
+    text-align: center;
+    line-height: 32px;
+    /* vertical-align: middle; */
+}
+h3{
+    font-size: 32px;
+    font-weight: 600;
 }

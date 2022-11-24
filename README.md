@@ -172,3 +172,7 @@ I attempted to go over the project and reformat many of the functions, however I
 
 - working on figuring out what to build, but it seems that CSS skills needs refinement, so I will attempt to create something actually nice in css ;)
 
+## Day 18. (24.Nov)
+
+- Decided that I'll be spending some time recreating Flickr for project 17 in CSS and Html. 
+Might add JS functionality at the end if I see fit.
