@@ -174,5 +174,10 @@ I attempted to go over the project and reformat many of the functions, however I
 
 ## Day 18. (24.Nov)
 
-- Decided that I'll be spending some time recreating Flickr for project 17 in CSS and Html. 
+- Decided that I'll be spending some time recreating the first page of Flickr for project 17 in CSS and Html. 
 Might add JS functionality at the end if I see fit.
+
+## Day 19. (25.Nov) 
+
+- Finished the CSS part of the website.
+- Decided to work on another project as well.

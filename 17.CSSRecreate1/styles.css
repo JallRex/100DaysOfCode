@@ -1,22 +1,24 @@
 
 @font-face {
     font-family: Proxima Nova;
-    src:local('Proxima Nova')
+    src:local('Proxima Nova');
     src: url("./fonts/Proxima\ Nova\ Font.otf") format('opentype');
 }
+body, html {
+    height: 100%;
+    
+  }
 
 
 body {
     font-family: Proxima Nova,helvetica neue,helvetica,arial,sans-serif;
     padding: 0;
     margin: 0;
-    background-size: cover;
     color: white;
-    
-}
-
-body{
     background-image:url("forrest.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .navbar{
@@ -29,7 +31,7 @@ body{
 .logoImg{
     margin-left: 1rem;
     margin-top: 1rem;
-    
+    cursor: pointer;
 }
 
 .searchfield{
@@ -51,8 +53,9 @@ body{
     background-color: rgba(0, 0, 0, 0);
     border-style: none;
     color: white;
-    font-size: 14px;
+    font-size: 18px;
     font-family: Proxima Nova,helvetica neue,helvetica,arial,sans-serif;
+    cursor: pointer;
     
 }
 
@@ -64,14 +67,26 @@ body{
     border-radius: 10px;
     border-style: none;
     font-family: Proxima Nova,helvetica neue,helvetica,arial,sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
+    cursor: pointer;
 } 
+
+
+.center{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .callout{
     display: flex;
-    place-content: center;
-    margin-top: 22rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
 
 h1{
@@ -86,8 +101,52 @@ h1{
     text-align: center;
     line-height: 32px;
     /* vertical-align: middle; */
+    filter: brightness(200%) contrast(200%)
 }
 h3{
     font-size: 32px;
     font-weight: 600;
+}
+
+.start4free{
+    width:fit-content;
+    padding: 1rem 2rem 1rem 2rem ;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.credits{
+    position: fixed;
+    bottom: 100px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.navbarBottom{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+
+.buttonClass{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+.btn{
+    background-color: rgba(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    border-style: none;
+    color: gray;
+    cursor: pointer;
 }
