@@ -1,9 +1,6 @@
 
 //Global variables
 const objects = document.querySelectorAll(".obj")
-let number
-
-
 
 
 //Fetch request
@@ -24,15 +21,7 @@ objects.forEach(p => {
     
   });
 
-//Random number generator
-
-function randomN(){
-    number = Math.floor(Math.random() * objects.length)
-}
-
-randomN();
-
 //Testing:
-console.log(objects)
-console.log("console Test")
-console.log(number)
+// console.log(objects)
+// console.log("console Test")
+// console.log(number)

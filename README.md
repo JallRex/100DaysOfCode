@@ -191,4 +191,10 @@ Might add JS functionality at the end if I see fit.
 - Used an API for the first time.
 - Css lackluster, JS in focus :D
 
+## Day 21. (27.Nov)
+
+- Forgot to commit, date of this commit is 28.11. 
+- Refractored the JS a bit and altered some of the CSS.
+
 **Finished project 18**
+
