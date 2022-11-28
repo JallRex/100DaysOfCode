@@ -196,5 +196,10 @@ Might add JS functionality at the end if I see fit.
 - Forgot to commit, date of this commit is 28.11. 
 - Refractored the JS a bit and altered some of the CSS.
 
-**Finished project 18**
+**Project 18 -finished**
 
+## Day 22. (28.Nov)
+
+**Project 19**
+
+- The weather tingy!

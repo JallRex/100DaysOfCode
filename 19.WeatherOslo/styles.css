@@ -1,0 +1,62 @@
+
+/* 
+Colors:
+
+background: #2B303A
+text: #D64933
+Results background: #86C7D0
+
+
+
+
+
+*/
+
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    color: #D64933
+}
+
+.backgr{
+    background-color: #2B303A;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.result{
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    background-color: #86C7D0;
+    color: #D64933;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    border-radius: 7px;
+}
+
+.res{
+    font-style: italic;
+}
+
+.btn{
+    margin-top: 4vh;
+    border-radius: 7px;
+    color: #D64933;
+    background-color: #86C7D0;
+    border-color: #D64933;
+}
