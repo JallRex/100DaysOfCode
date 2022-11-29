@@ -19,11 +19,6 @@ button.addEventListener("click", function(){
 
 //Fetch data:
 
-// let response = fetch(url, [" -A test "])
-
-
-
-
 function fetching(){
     //Get data from external source
         fetch(url)
@@ -34,15 +29,8 @@ function fetching(){
 
 // Presenting Data
 
-function altering(weather){
+function altering(){
     result.innerText = "Rain in Oslo now:"
     result3.innerText = ""
 }
 
-//Testing:
-
-console.log(result,result2, result3, button)
-// console.log(response)
-// console.log(url.data.properties.timeseries[1])
-
-// data.properties.timeseries[1].data.instant.details.precipitation_rate
