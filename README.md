@@ -203,3 +203,11 @@ Might add JS functionality at the end if I see fit.
 **Project 19**
 
 - The weather tingy!
+
+## Day 23. (29.Nov)
+
+**Project 19 -Finished**
+- Wrapped up the weather Tingy (It gives "current" percipitation in Oslo when button is clicked:D )
+- Data pulled from https://api.met.no/
+
+**Created files for project 20!**
