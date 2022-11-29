@@ -181,3 +181,25 @@ Might add JS functionality at the end if I see fit.
 
 - Finished the CSS part of the website.
 - Decided to work on another project as well.
+
+**Finished (basic) project 17**
+
+## Day 20. (26.Nov)
+
+**Started project 18**
+
+- Used an API for the first time.
+- Css lackluster, JS in focus :D
+
+## Day 21. (27.Nov)
+
+- Forgot to commit, date of this commit is 28.11. 
+- Refractored the JS a bit and altered some of the CSS.
+
+**Project 18 -finished**
+
+## Day 22. (28.Nov)
+
+**Project 19**
+
+- The weather tingy!
