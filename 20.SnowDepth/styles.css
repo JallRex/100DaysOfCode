@@ -1,0 +1,36 @@
+
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: azure;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fact{
+    background-color: aquamarine;
+    width: 150px;
+    height: 70px;
+    margin: 40px;
+    text-align: center;
+}
+
+
+.element{
+    background-color: aquamarine;
+}
