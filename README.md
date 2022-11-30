@@ -211,3 +211,12 @@ Might add JS functionality at the end if I see fit.
 - Data pulled from https://api.met.no/
 
 **Created files for project 20!**
+
+## Day 24 (30.Nov)
+
+- Built the site and fetched data from Fnugg.no - spent hours trying to get the NVE site to disband their
+cors error but it failed to pan out. However, I have it as a goal in the future again.
+
+- "Website now actually gathers and presents data from multiple ski-sites and allows one glance to indentify the fun spot."
+
+**Finished project 20!**

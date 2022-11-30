@@ -1,36 +1,52 @@
 
-html{
-    height: 100%;
-    width: 100%;
-}
-body{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/* background: #2B303A
+text: #D64933
+Results background: #86C7D0 */
 
+html{
+    background-color: #2B303A;
+    color: #D64933;
+}
 
 
 .main{
     display: flex;
     flex-wrap: wrap;
-    background-color: azure;
+    background-color: #2B303A;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
 }
 
+.yes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-self: center;
+}
 .fact{
-    background-color: aquamarine;
-    width: 150px;
-    height: 70px;
+    width: 200px;
+    height: 100px;
     margin: 40px;
     text-align: center;
+    border-color: #86C7D0;
+    border-style: solid;
+    color: #D64933;
 }
 
 
 .element{
-    background-color: aquamarine;
+    color: #86C7D0;
+    font-weight: 900;
+    font-style: oblique;
+    font-size: large;
+}
+
+.yes p{
+    position: absolute; 
+    bottom: 5px;
+}
+.yes h5{
+    position: absolute; 
+    bottom: 35px;
 }
