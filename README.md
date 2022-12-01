@@ -220,3 +220,13 @@ cors error but it failed to pan out. However, I have it as a goal in the future 
 - "Website now actually gathers and presents data from multiple ski-sites and allows one glance to indentify the fun spot."
 
 **Finished project 20!**
+
+## Day 25. (1.Des)
+
+**Started project 21**
+
+- A bit undecided on the topic of todays project, so following a tut on making a game.
+
+- DoodleJumper now works ;D
+Could 100% be styled a bit though. Might return for that later on.
+**Finished project 22**
