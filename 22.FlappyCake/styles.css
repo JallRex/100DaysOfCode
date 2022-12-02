@@ -1,0 +1,100 @@
+
+
+body{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.game-container{
+    width: 500px;
+    height: 730px;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+.borderLeft{
+    width: 100px;
+    height: 900px;
+    position: absolute;
+    background-color: white;
+    z-index: +2;
+    }
+    
+.borderRight{
+    width: 100px;
+    height: 900px;
+    position: absolute;
+    background-color: white;
+    z-index: +2;
+    left: 600px;
+    }
+
+.borderTop{
+    width: 700px;
+    height: 50px;
+    position: absolute;
+    z-index: +2;
+    background-color: white;
+}
+
+.sky{
+    background-image: url(./sky.jpg);
+    width: 500px;
+    height: 580px;
+    position: absolute;
+}
+
+.ground{
+    border-top-style: solid;
+    background-image: url(./backgr.png);
+    background-color: darkkhaki;
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    top: 580px;
+    z-index: +1;
+}
+
+.bird{
+    background-image: url(./cake.png);
+    width: 60px;
+    height: 45px;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.obstacle{
+    background-image:url(./cacti.jpg);
+    width: 60px;
+    height: 300px;
+    position: absolute;
+    border-radius: 10px;
+    border-style:solid;
+    border-color: brown;
+    border-width: 1px;
+}
+
+.topObstacle{
+    background-image:url(./ghost.jpg);
+    transform:rotate(180deg);
+    width: 60px;
+    height: 300px;
+    position: absolute;
+    border-radius: 10px;
+    border-style:solid;
+    border-color: brown;
+    border-width: 1px;
+}
+
+.lies{
+    position: absolute;
+    left: 170px;
+    top: 300px;
+    z-index: +3;
+    font-size: larger;
+    color: rebeccapurple;
+}

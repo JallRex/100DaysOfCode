@@ -214,8 +214,7 @@ Might add JS functionality at the end if I see fit.
 
 ## Day 24 (30.Nov)
 
-- Built the site and fetched data from Fnugg.no - spent hours trying to get the NVE site to disband their
-cors error but it failed to pan out. However, I have it as a goal in the future again.
+- Built the site and fetched data from Fnugg.no - spent hours trying to get the NVE site to get around their cors error(s) but it failed to pan out. However, I have it as a goal in the future again.
 
 - "Website now actually gathers and presents data from multiple ski-sites and allows one glance to indentify the fun spot."
 
@@ -229,4 +228,13 @@ cors error but it failed to pan out. However, I have it as a goal in the future 
 
 - DoodleJumper now works ;D
 Could 100% be styled a bit though. Might return for that later on.
-**Finished project 22**
+
+**Finished project 21**
+
+## Day 26. (2.Des)
+
+**Project 22**
+
+- Created "the cake" and added the liedetector (created the game and added a form of collision based on pixel coordinates.)
+
+**Project 22 (finished!)**
