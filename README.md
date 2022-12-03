@@ -238,3 +238,10 @@ Could 100% be styled a bit though. Might return for that later on.
 - Created "the cake" and added the liedetector (created the game and added a form of collision based on pixel coordinates.)
 
 **Project 22 (finished!)**
+
+## Day 27. (3.Des)
+
+**Project 23**
+
+-Attempted for a few hurs to build a calculator from scratch with no external ideas - but after a few setbacks I realized I needed to go back a bit to learn more. Thus - Following a tutorial on it.
+- After first building my own and seeing that I needed more info I added pre-styled css and html from a tut as I've done "mine already".
