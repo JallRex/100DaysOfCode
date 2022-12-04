@@ -245,3 +245,10 @@ Could 100% be styled a bit though. Might return for that later on.
 
 -Attempted for a few hurs to build a calculator from scratch with no external ideas - but after a few setbacks I realized I needed to go back a bit to learn more. Thus - Following a tutorial on it.
 - After first building my own and seeing that I needed more info I added pre-styled css and html from a tut as I've done "mine already".
+
+## Day 28. (4.Des)
+
+**Finished project 23**
+
+- This project was more advanmced than I expected as there was a few new things such as classes. Interesting to see and learn some new things :D
+
