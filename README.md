@@ -252,3 +252,11 @@ Could 100% be styled a bit though. Might return for that later on.
 
 - This project was more advanmced than I expected as there was a few new things such as classes. Interesting to see and learn some new things :D
 
+## Day 29. (5.Des)
+
+**Project 24 - Memory Game**
+
+- Expanding knowledge at work as well now, and doing this mostly afterwork.*
+- Built following guide: https://www.youtube.com/watch?v=lhNdUVh3qCc
+
+**Finished project 24**
