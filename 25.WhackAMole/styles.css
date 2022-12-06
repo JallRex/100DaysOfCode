@@ -1,0 +1,30 @@
+html{
+    background: linear-gradient(45deg, red, blue);
+}
+
+
+.square {
+	height: 201px;
+	width: 201px;
+	border: solid black 1px;
+}
+
+
+.grid {
+
+	display: flex;
+	flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 616px;
+	height: 616px;
+}
+
+
+
+.mole {
+	background-image: url("mole.jpg");
+	background-size: cover;
+    z-index: +3;
+}
+

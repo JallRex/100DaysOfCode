@@ -260,3 +260,13 @@ Could 100% be styled a bit though. Might return for that later on.
 - Built following guide: https://www.youtube.com/watch?v=lhNdUVh3qCc
 
 **Finished project 24**
+
+## Day 30!! / (6. Des)
+
+**Project 25.**
+
+- Making whack a Mole!
+Simple project. I followed a guide as I'll be doing for a few days. While work is heavy.
+(25 in 30! :D)
+
+**Project 25 finished!**
