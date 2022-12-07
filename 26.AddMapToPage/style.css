@@ -1,0 +1,30 @@
+*{
+    
+    padding: 0;
+    margin: 2;
+}
+
+body{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.center{
+    background-color: grey;
+    top: 100px;
+    border-radius: 15px;
+}
+
+.center p{
+    background-color: grey;
+    color: purple;
+}
+
+#map {
+    border: solid 1px blue;
+  }

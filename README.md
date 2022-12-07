@@ -270,3 +270,13 @@ Simple project. I followed a guide as I'll be doing for a few days. While work i
 (25 in 30! :D)
 
 **Project 25 finished!**
+
+## Day 31. (7.Des)
+
+**Project 26.**
+
+-Attempting geolocation and showing result (basic) / Adjusted expectations as geolocating requires a secure site (currently not playing with that.)
+- Opted to add a map view to a site with js instead. (googlemymaps instead of setting up a billable(?) API)
+Shot but sweet project ;D
+
+**Project 26 Finished!**
