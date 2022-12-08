@@ -280,3 +280,12 @@ Simple project. I followed a guide as I'll be doing for a few days. While work i
 Shot but sweet project ;D
 
 **Project 26 Finished!**
+
+## Day 32. (8.Des)
+
+**Project 27.**
+
+Made a clock with visual display (analogue sort of)
+Animating but with movement of objects. Primarily CSS actually. But with some hints of JS sprinkle.
+
+**Finished project 27**
