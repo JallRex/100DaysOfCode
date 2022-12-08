@@ -285,6 +285,7 @@ Shot but sweet project ;D
 
 **Project 27.**
 
+:: https://www.youtube.com/watch?v=Ki0XXrlKlHY
 Made a clock with visual display (analogue sort of)
 Animating but with movement of objects. Primarily CSS actually. But with some hints of JS sprinkle.
 
