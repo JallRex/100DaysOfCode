@@ -290,3 +290,10 @@ Made a clock with visual display (analogue sort of)
 Animating but with movement of objects. Primarily CSS actually. But with some hints of JS sprinkle.
 
 **Finished project 27**
+
+## Day 33!. (9.Des)
+
+**starting project 28!**
+
+- making something simple that moves in the browser.
+- plans to have blocks of "color" change themselves to a square upon mouseclick
