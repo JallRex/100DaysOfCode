@@ -297,3 +297,9 @@ Animating but with movement of objects. Primarily CSS actually. But with some hi
 
 - making something simple that moves in the browser.
 - plans to have blocks of "color" change themselves to a square upon mouseclick
+
+
+## Day 34. (10.des)
+
+- only doing a litte each day this weekend as I´m quite busy. 
+Added functionality that actually moves each object (rotates) - I had a few issues yesterday with this.

@@ -12,7 +12,9 @@ const c4 = document.getElementById("c4")
 const c5 = document.getElementById("c5")
 const c6 = document.getElementById("c6")
 const c7 = document.getElementById("c7")
-let rotate = 0
+let rotateP = 0
+let rotateN = 0
+let deg = "deg"
 
 
 
@@ -23,13 +25,18 @@ document.addEventListener("click", () =>{
 
 
 function callOnMe() {
-    rotate + 30
     adjust()
-    console.log(rotate)
-    rotate = rotate +"deg"
-    console.log(rotate)
+    rotateP = rotateP +10
+    rotateN = rotateN -10
+    rotateP = rotateP +10
 }
 
 function adjust(){
-    c1.style.rotate = rotate
+    c1.style.rotate = rotateP+deg
+    c2.style.rotate = rotateN+deg
+    c3.style.rotate = rotateP+deg
+    c4.style.rotate = rotateN+deg
+    c5.style.rotate = rotateP+deg
+    c6.style.rotate = rotateN+deg
+    c7.style.rotate = rotateP+deg
 }
