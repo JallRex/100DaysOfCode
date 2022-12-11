@@ -28,15 +28,16 @@ function callOnMe() {
     adjust()
     rotateP = rotateP +10
     rotateN = rotateN -10
-    rotateP = rotateP +10
+    setInterval(changeToBox, 1000    )
 }
 
 function adjust(){
     c1.style.rotate = rotateP+deg
     c2.style.rotate = rotateN+deg
     c3.style.rotate = rotateP+deg
-    c4.style.rotate = rotateN+deg
     c5.style.rotate = rotateP+deg
-    c6.style.rotate = rotateN+deg
-    c7.style.rotate = rotateP+deg
+}
+
+function changeToBox(){
+    c2.classList.add("c2ex")
 }

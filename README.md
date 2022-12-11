@@ -303,3 +303,7 @@ Animating but with movement of objects. Primarily CSS actually. But with some hi
 
 - only doing a litte each day this weekend as I´m quite busy. 
 Added functionality that actually moves each object (rotates) - I had a few issues yesterday with this.
+
+## Day 35. (11.Des)
+
+Tiny update (I did something, but not much today :p)

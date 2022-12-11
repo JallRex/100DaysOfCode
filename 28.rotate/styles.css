@@ -23,15 +23,30 @@ body{
     position: relative;
 }
 
-#c1{background-color: red; }
-#c2{background-color: blue;}
-#c3{background-color: red;}
-#c4{background-color: blue;}
-#c5{background-color: red;}
-#c6{background-color: blue;}
-#c7{background-color: red;}
+#c1{background-color: red;     border-radius: 100px;
+}
+#c2{background-color: pink;     border-radius: 100px;
+}
+#c3{background-color: purple;     border-radius: 100px;
+}
+#c5{background-color: red;     border-radius: 100px;
+}
 
 
-#c7{
-    top: 0px;
+
+.c2ex{
+    top: 100px;
+    rotate: 90deg;
+    left: 200px;
+    width: 500px;
+}
+.c3ex{
+    z-index: 998;
+    left: -200px;
+    width: 500px;
+}
+.c4ex{
+    z-index: 999;
+    top: 200px;
+    width: 500px;
 }
