@@ -1,43 +1,34 @@
 //Homemade**
 
-//Goal is to listen for mouseclick and rotate all items into ONE square
 
-
-
-const content = document.querySelector(".content")
+const cya = document.getElementById("cya")
 const c1 = document.getElementById("c1")
 const c2 = document.getElementById("c2")
 const c3 = document.getElementById("c3")
 const c4 = document.getElementById("c4")
-const c5 = document.getElementById("c5")
-const c6 = document.getElementById("c6")
-const c7 = document.getElementById("c7")
-let rotateP = 0
-let rotateN = 0
-let deg = "deg"
 
 
 
 document.addEventListener("click", () =>{
-    console.log("clicked")
-    callOnMe()
+    console.log("You clicked")
+    alternateClass()
+    middleBall()
+   
 })
 
 
-function callOnMe() {
-    adjust()
-    rotateP = rotateP +10
-    rotateN = rotateN -10
-    setInterval(changeToBox, 1000    )
+function alternateClass(){
+   c1.classList.toggle("c1")
+   c1.classList.toggle("coneex")
+   c2.classList.toggle("c2")
+   c2.classList.toggle("ctwoex")
+   c3.classList.toggle("c3")
+   c3.classList.toggle("cthreeex")
+   c4.classList.toggle("c4")
+   c4.classList.toggle("cfourex")
 }
 
-function adjust(){
-    c1.style.rotate = rotateP+deg
-    c2.style.rotate = rotateN+deg
-    c3.style.rotate = rotateP+deg
-    c5.style.rotate = rotateP+deg
-}
-
-function changeToBox(){
-    c2.classList.add("c2ex")
+function middleBall(){
+    cya.classList.toggle("blackItem")
+    cya.classList.toggle("blackItem2")
 }

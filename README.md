@@ -307,3 +307,9 @@ Added functionality that actually moves each object (rotates) - I had a few issu
 ## Day 35. (11.Des)
 
 Tiny update (I did something, but not much today :p)
+
+## Day 36 (12.Des)
+
+- Actually made it work today, it's simple but it adds a class and changes the position of elements pre-defined. (added a transition to make it pretty)
+
+**Wrapped up Project 28**

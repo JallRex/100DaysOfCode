@@ -1,52 +1,130 @@
 
+
 body{
-    margin: 0;
-    padding: 0;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
 }
+
+
 
 .main{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    overflow:hidden;
-    
+    background-color: lightcoral;
+    width: 100vh;
+    height: 100vh;
 }
 
+
+.container{
+    background-color: lightgray;
+    width: 60vh;
+    height: 60vh;
+    position: absolute;
+    left: 20vh;
+    top: 20vh;
+}
 
 .content{
-    width: 500px;
-    height: 100px;
-    position: relative;
+    border-radius: 15px;
+    position: absolute;
+    border-color: red;
+    border-style: solid 2px;
 }
 
-#c1{background-color: red;     border-radius: 100px;
+.anim{
+        /* This block of CSS allows the objects to "drift to position" */
+        transition: all 2s ease-in-out;
+        -webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
+        -moz-transition: all 2s ease-in-out; /** Firefox **/
+        -o-transition: all 2s ease-in-out; /** Opera **/
 }
-#c2{background-color: pink;     border-radius: 100px;
-}
-#c3{background-color: purple;     border-radius: 100px;
-}
-#c5{background-color: red;     border-radius: 100px;
+/* This block of CSS allows the ball to "fall to position" */
+.animSlow{
+    transition: 2.5s;
 }
 
+/* Normal */
+.c1{
+    background-color: blue;
+    top:25vh;
+    left: 10vh;
 
+    width: 5vh;
+    height: 10vh;
+}
+.c2{
+    background-color: red;
+    top:25vh;
+    left: 20vh;
 
-.c2ex{
-    top: 100px;
-    rotate: 90deg;
-    left: 200px;
-    width: 500px;
+    width: 5vh;
+    height: 10vh;
 }
-.c3ex{
-    z-index: 998;
-    left: -200px;
-    width: 500px;
+.c3{
+    background-color: green;
+    top:25vh;
+    left: 35vh;
+
+    width: 5vh;
+    height: 10vh;
 }
-.c4ex{
-    z-index: 999;
-    top: 200px;
-    width: 500px;
+.c4{
+    background-color: orange;
+    top:25vh;
+    left: 45vh;
+
+    width: 5vh;
+    height: 10vh;
+}
+
+/* Alternate: */
+.coneex{
+    background-color: blue;
+    top:5vh;
+    left: 5vh;
+    rotate: -360deg;
+    width: 5vh;
+    height: 25vh;
+}
+.ctwoex{
+    background-color: red;
+    top:5vh;
+    left: 50vh;
+    rotate: -360deg;
+    width: 5vh;
+    height: 25vh;
+}
+.cthreeex{
+    background-color: green;
+    top:30vh;
+    left: 5vh;
+    rotate: 360deg;
+    width: 5vh;
+    height: 25vh;
+}
+.cfourex{
+    background-color: orange;
+    top:30vh;
+    left: 50vh;
+    rotate: -360deg;
+    width: 5vh;
+    height: 25vh;
+}
+
+.blackItem{
+    background-color: black;
+    border-radius: 100%;
+    height: 2vh;
+    width: 2vh;
+    top:-150vh;
+    left: 29vh;
+}
+
+.blackItem2{
+    background-color: black;
+    border-radius: 100%;
+    height: 2vh;
+    width: 2vh;
+    top:29vh;
+    left: 29vh;
 }
