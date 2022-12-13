@@ -111,20 +111,88 @@ body{
     height: 25vh;
 }
 
-.blackItem{
+.ball{
+    /* Ball defining attributes */
     background-color: black;
     border-radius: 100%;
     height: 2vh;
     width: 2vh;
-    top:-150vh;
+}
+
+/* Noseai */
+.ballOne{
+    top:-250vh;
+    left: 300vh;
+}
+
+.ballOne1{
+    top:29vh;
     left: 29vh;
 }
 
-.blackItem2{
-    background-color: black;
-    border-radius: 100%;
-    height: 2vh;
-    width: 2vh;
-    top:29vh;
+/* left eye*/
+.ballTwo{
+    top:-150vh;
+    left: 100vh;
+}
+.ballTwo1{
+    top:25vh;
+    left: 24vh;
+}
+
+/* right eye*/
+.ballThree{
+    top:-150vh;
+    left: 70vh;
+}
+.ballThree1{
+    top:25vh;
+    left: 34vh;
+}
+
+/* mouthM1 */
+.ballFour{
+    top:-150vh;
+    left: 200vh;
+}
+.ballFour1{
+    top:35vh;
     left: 29vh;
+}
+
+/* mouthL1 */
+.ballFive{
+    top:-150vh;
+    left: -50vh;
+}
+.ballFive1{
+    top:34.7vh;
+    left: 27vh;
+}
+/* mouthR1 */
+.ballSix{
+    top:-150vh;
+    left: 20vh;
+}
+.ballSix1{
+    top:34.7vh;
+    left: 31vh;
+}
+/* mouthL2 */
+.ballSeven{
+    top:-150vh;
+    left: 5vh;
+}
+.ballSeven1{
+    top:34vh;
+    left: 25.1vh;
+}
+/* mouthR2 */
+.ballEight{
+    top:-150vh;
+    left: -33vh;
+}
+.ballEight1{
+    top: 34vh;
+    left: 32.9vh;
 }

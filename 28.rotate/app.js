@@ -1,7 +1,14 @@
 //Homemade**
 
 
-const cya = document.getElementById("cya")
+const cya1 = document.getElementById("cya1")
+const cya2 = document.getElementById("cya2")
+const cya3 = document.getElementById("cya3")
+const cya4 = document.getElementById("cya4")
+const cya5 = document.getElementById("cya5")
+const cya6 = document.getElementById("cya6")
+const cya7 = document.getElementById("cya7")
+const cya8 = document.getElementById("cya8")
 const c1 = document.getElementById("c1")
 const c2 = document.getElementById("c2")
 const c3 = document.getElementById("c3")
@@ -29,6 +36,20 @@ function alternateClass(){
 }
 
 function middleBall(){
-    cya.classList.toggle("blackItem")
-    cya.classList.toggle("blackItem2")
+    cya1.classList.toggle("ballOne")
+    cya1.classList.toggle("ballOne1")
+    cya2.classList.toggle("ballTwo")
+    cya2.classList.toggle("ballTwo1")
+    cya3.classList.toggle("ballThree")
+    cya3.classList.toggle("ballThree1")
+    cya4.classList.toggle("ballFour")
+    cya4.classList.toggle("ballFour1")
+    cya5.classList.toggle("ballFive")
+    cya5.classList.toggle("ballFive1")
+    cya6.classList.toggle("ballSix")
+    cya6.classList.toggle("ballSix1")
+    cya7.classList.toggle("ballSeven")
+    cya7.classList.toggle("ballSeven1")
+    cya8.classList.toggle("ballEight")
+    cya8.classList.toggle("ballEight1")
 }

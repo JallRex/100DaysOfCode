@@ -312,4 +312,8 @@ Tiny update (I did something, but not much today :p)
 
 - Actually made it work today, it's simple but it adds a class and changes the position of elements pre-defined. (added a transition to make it pretty)
 
+## Day 37 (13.Des)
+ 
+ - added a bit more moving elements to the project (i originally finished it yesterday, but revisited it because.. fun)
+
 **Wrapped up Project 28**
