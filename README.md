@@ -317,3 +317,7 @@ Tiny update (I did something, but not much today :p)
  - added a bit more moving elements to the project (i originally finished it yesterday, but revisited it because.. fun)
 
 **Wrapped up Project 28**
+
+## Day 38 (14.Des)
+
+**Project 29**

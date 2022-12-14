@@ -1,0 +1,36 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(180, 25%, 25%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: hsla(210, 13%, 50%, 0.314);
+    width: 500px;
+    height: 700px;
+    text-align: center;
+}
+
+h1{
+    font-size: 35px;
+}
+
+.item{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.input{
+    height: 20px;
+    margin-top: 15px;
+}
