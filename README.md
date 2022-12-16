@@ -321,3 +321,15 @@ Tiny update (I did something, but not much today :p)
 ## Day 38 (14.Des)
 
 **Project 29**
+
+    - mostly doing planning to figure out the next steps. psudocode.
+
+## Day 39 (15. Des)
+
+- simple adjustments made.. (no commit though!)
+
+## Day 40. (16.Des)
+
+ - re-did the project following guide (linked in app.js file)
+ - next steps: Recreate with local storage?
+
