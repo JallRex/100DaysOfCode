@@ -322,7 +322,7 @@ Tiny update (I did something, but not much today :p)
 
 **Project 29**
 
-    - mostly doing planning to figure out the next steps. psudocode.
+- mostly doing planning to figure out the next steps. psudocode.
 
 ## Day 39 (15. Des)
 
@@ -331,5 +331,14 @@ Tiny update (I did something, but not much today :p)
 ## Day 40. (16.Des)
 
  - re-did the project following guide (linked in app.js file)
- - next steps: Recreate with local storage?
+ - next steps: Recreate with local storage perhaps?
 
+ ## Day 41. (17.Des)
+
+Spent family time.
+ ## Day 41. (18.Des)
+
+Spent family time.
+## Day 41. (19.Des)
+
+Spent family time.
