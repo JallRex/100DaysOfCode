@@ -1,1 +1,43 @@
-!
+/* 
+Colors:
+Bakcground #D5D7D8
+containers #0C2231
+Text #79C698
+borders #EFF8F3
+
+
+
+*/
+
+h1{
+    font-size: 45px;
+}
+
+p{
+    font-size: 25px;
+}
+
+
+body{
+    background-color: #D5D7D8;
+    color: #79C698;
+}
+
+.container{
+    background-color: #0C2231;
+
+}
+
+
+.submit{
+    margin: 10px;
+    color: #79C698;
+}
+
+.content{
+    margin: 10px;
+}
+
+.shit{
+    margin: 10px;
+}

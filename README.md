@@ -342,3 +342,8 @@ Spent family time.
 ## Day 41. (19.Des)
 
 Spent family time.
+
+## Day 41. (20.Des)
+
+    back in biz
+- Playing around with local storage
