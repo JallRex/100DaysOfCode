@@ -345,5 +345,17 @@ Spent family time.
 
 ## Day 41. (20.Des)
 
+**Project 29 Fin**
+**Project 30**
+
     back in biz
 - Playing around with local storage
+
+## Day 42. (23. Des)
+
+**Project 31**
+
+- Mid holiday update*
+
+- Going a bit back in time to touch base on some CSS.
+Going to use online resources to create a wiki for myself
