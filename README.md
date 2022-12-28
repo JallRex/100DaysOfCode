@@ -358,4 +358,9 @@ Spent family time.
 - Mid holiday update*
 
 - Going a bit back in time to touch base on some CSS.
-Going to use online resources to create a wiki for myself
+Going to use online resources to create a showcase-wiki for myself
+
+## Day 43. (28.Des)
+
+One christmas celebration later :D 
+Working on the "wiki" Project 31*.

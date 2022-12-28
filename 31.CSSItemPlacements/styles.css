@@ -35,12 +35,23 @@ body {
     background-color: #111;
   }
 
-
    /*FLEX */
   h1 {
     text-align: center;
     display: block;
     font-size: 18px;
+  }
+
+  #h1Head{
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
+  #h1Header{
+    font-size: 30px;
+    font-weight: 700;
+
   }
   
   .container {
@@ -78,6 +89,52 @@ body {
   justify-content: space-between;
   }
 
+  /* P2 */
 
+  #aligncenter {
+    justify-content: center;
+    align-items: center;  
+  }
+  #alignstart {
+    justify-content: center;
+    align-items: flex-start;  
+  }
+  #alignend {
+    justify-content: center;
+    align-items:flex-end;  
+  }
+  #alignbaseline {
+    justify-content: center;
+    align-items: baseline;  
+  }
 
- 
+/* Flex direction */
+
+.containerFlex {
+  background-color: whitesmoke;
+  display: flex;
+  max-height: 600px;
+  align-items:center;
+}
+.boxFlex {
+  background-color: dodgerblue;
+  border: 1px solid white;
+  width: 100px;
+  height: 100px;
+}
+
+  #row {
+    flex-direction:row;
+  }
+  
+  #row-reverse {
+    flex-direction:row-reverse;
+  }
+  
+  #column {
+    flex-direction:column;
+  }
+  
+  #column-reverse {
+    flex-direction:column-reverse;
+  }
