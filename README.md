@@ -333,23 +333,19 @@ Tiny update (I did something, but not much today :p)
  - re-did the project following guide (linked in app.js file)
  - next steps: Recreate with local storage perhaps?
 
- ## Day 41. (17.Des)
 
-Spent family time.
- ## Day 41. (18.Des)
-
-Spent family time.
-## Day 41. (19.Des)
-
-Spent family time.
 
 ## Day 41. (20.Des)
 
+
+-- back in biz after some family time.
+
+- Playing around with local storage
+
 **Project 29 Fin**
+
 **Project 30**
 
-    back in biz
-- Playing around with local storage
 
 ## Day 42. (23. Des)
 
@@ -358,7 +354,7 @@ Spent family time.
 - Mid holiday update*
 
 - Going a bit back in time to touch base on some CSS.
-Going to use online resources to create a showcase-wiki for myself
+Going to use online resources to create a showcase-wiki for myself.
 
 ## Day 43. (28.Des)
 
@@ -370,3 +366,4 @@ Built a demopage with flexbox (and a bit of positioning*)
 
 Flex and flex demo is done.
 Currently working on a GRID wiki page. 
+Decided to create a bigger project out of P31, so it will take a few days.
