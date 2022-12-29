@@ -34,4 +34,69 @@ ul {
   li a:active {
     background-color: #111;
   }
+
+
   /* Content */
+  #grid{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    opacity:0.7;
+    margin-top: 550px;
+  }
+
+  /* Background */
+.backgroundDiag{
+  margin-left: 10%;
+  height: 10rem;
+  width: 10rem;
+}
+
+  /* Content style */
+
+  .grid {
+    display: grid;
+    border: 2px blue solid;
+    width: 400px;
+    height: 500px;
+
+    gap: 20px 5px;
+    /*row-gap: 20px;
+    column-gap:5px;*/
+
+    grid-template: 1fr 1fr 1fr / 3fr 50% 1fr;
+    /* Grid-template Rows / Columns (1fr 1fr = 50% 50%) (3fr 1fr =  75% 25% */
+    /* Fractions are "fractions" and take up the remaining free space. */
+    /* Valid alternative: grid-template:repeat(3, 1fr) / 3fr 50% 1fr; */
+    /* Better alternative: grid-template:repeat(3, 1fr) / 3fr minmax(50px,300px) 1fr; */
+  }
+  
+  .box {
+    background-color: beige;
+    color: black;
+    border-radius: 5px;
+    border: 2px dodgerblue solid;
+  }
+
+/* Demo 2 */
+
+.gridB {
+  margin-top: 10px;
+  display: grid;
+  border: 2px blue solid;
+  height: 500px;
+  width:500px;
+  grid-template: repeat(4, 1fr 2fr) / repeat(4, 3fr 2fr);
+  gap: 5px;
+}
+
+.h {
+  grid-row: 5 / 7;
+  grid-column: 1 / span 2;
+
+}
+
+.j {
+  grid-row: 2 / span 3;
+  grid-column:2 / span 6;
+}

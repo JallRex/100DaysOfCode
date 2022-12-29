@@ -364,3 +364,9 @@ Going to use online resources to create a showcase-wiki for myself
 
 One christmas celebration later :D 
 Working on the "wiki" Project 31*.
+Built a demopage with flexbox (and a bit of positioning*)
+
+## Day 44. (29.Des)
+
+Flex and flex demo is done.
+Currently working on a GRID wiki page. 
