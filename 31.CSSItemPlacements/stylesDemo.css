@@ -1,0 +1,162 @@
+body {
+    border: 0;
+    margin: 0;
+  }
+
+  /* Navbar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    font-family: 'Roboto Mono', monospace;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+
+  /* Content */
+
+.main{
+  font-family: Helvetica, Arial;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.banner{
+  border-top: solid red 2px;
+  padding-top: 10px;
+  height: 69px;
+  border-style: solid 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid gray 1px;
+}
+
+.banner a{
+  margin: 0px 8px;
+}
+
+.links a{
+  text-decoration: underline;
+  color: seashell;
+}
+
+.logo{
+  height: 50px;
+  margin-left: 10px;
+}
+
+.section{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  height: 700px;
+  top: 125px;
+}
+
+
+.missionst{
+  position: relative;
+  width: 1200px;
+  text-align: center;
+  top: -480px;
+  color: seashell;
+  background-color: black;
+}
+
+.sectiontwo{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  top: 100px;
+  margin-bottom: 150px;
+}
+
+.sectImg{
+  height: 200px;
+  width: 300px;
+}
+
+.sectimg2{
+  text-align: center;
+  margin: 0px 10px;
+}
+
+.sectTwoDiv1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sectTwoDiv2{
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Section Three */
+
+.sectionThree{
+  display: flex;
+  justify-content: center;
+}
+
+.background3{
+  background-image: url("./demoIMG/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.h4Location{
+  position: absolute;
+  top: 1750px;
+  
+}
+
+.box{
+  background-color: #111;
+  width: 300px;
+  height: 300px;
+  margin: 15px 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box1
+.box2
+.box3
