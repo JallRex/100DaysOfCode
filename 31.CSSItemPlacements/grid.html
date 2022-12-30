@@ -20,6 +20,7 @@
       </div>
       <!-- Demo 1 -->
       <section id="grid">
+          <h2>grid-template:repeat(3, 1fr) / 3fr minmax(50px,300px) 1fr;</h2>
       <div class="grid">
         <div class="box a">A</div>
         <div class="box b">B</div>
@@ -31,12 +32,42 @@
       </div>
 
       <!-- Demo 2 -->
-
+      <h2>grid-area: row / column / row span / column span;</h2>
       <div class="gridB">
         <div class="box h">A <p>grid-row: 5 / 7; <br> grid-column: 1 / span 2;</p></div>
-        <div class="box j">B <p>grid-row: 2 / span 3; <br> grid-column:2 / span 6;</p></div>
+        <div class="box i">B <p>grid-row: 2 / span 3; <br> grid-column:2 / span 6;</p></div>
+        <div class="box j">C <p>  grid-area:6 / 8 / span 3 / span 1; </p></div>
+<!--    best practise grid:: grid-area:6 / 8 / span 3 / span 1; -->
       </div>
+      <p>grid-template-columns defines the number and sizes of the columns of the grid <br>
+        grid-template-rows defines the number and sizes of the rows of the grid <br>
+        grid-template is a shorthand for defining both grid-template-columns and grid-template-rows in one line <br>
+        row-gap puts blank space between the rows of the grid <br>
+        column-gap puts blank space between the columns of the grid <br>
+        gap is a shorthand for defining both row-gap and column-gap in one line <br>
+        grid-row-start and grid-row-end makes elements span certain rows of the grid <br>
+        grid-column-start and grid-column-end makes elements span certain columns of the grid <br>
+        grid-area is a shorthand for grid-row-start, grid-column-start, grid-row-end, and grid-column-end, all in one line</p>
+      
+    <!-- Demo 3 -->
 
-      </section>
+    <div class="gridC">
+        <div class="box k">A</div>
+        <div class="box">B</div>
+        <div class="box">C</div>
+        <div class="box">D</div>
+        <div class="box">E</div>
+      </div>
+      <p>  
+        display:grid; <br>
+        grid-template-columns: 25% 25% 2fr 1fr; <br>
+        grid-template-rows:200px 200px; <br>
+        gap: 10px 15px;</p>
+        <p> 
+        grid-column-start:1; <br>
+        grid-column-end:span 2; <br>
+        grid-row-start:1; <br>
+        grid-row-end:3;</p>
+    </section>
 </body>
 </html>

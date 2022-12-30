@@ -367,3 +367,7 @@ Built a demopage with flexbox (and a bit of positioning*)
 Flex and flex demo is done.
 Currently working on a GRID wiki page. 
 Decided to create a bigger project out of P31, so it will take a few days.
+
+## Day 45. (30.Des)
+
+- added more GRID stuff to the project.
