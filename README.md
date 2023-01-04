@@ -371,3 +371,7 @@ Decided to create a bigger project out of P31, so it will take a few days.
 ## Day 45. (30.Des)
 
 - added more GRID stuff to the project.
+
+## Day 46. (31.Des)
+
+- Started work on GRID Demo Page.
