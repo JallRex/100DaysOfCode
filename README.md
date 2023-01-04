@@ -381,3 +381,6 @@ Decided to create a bigger project out of P31, so it will take a few days.
 - Worked on small changes the last few days, but not anything major, thus I wont add those days to the count now. 
  Added more layers to P31 (more pages and details, updated the navbar as well.)
 
+## Day 48. (4.Jan)
+
+-  Following tut from CodeCademy - Attempting to "fix" P32. 
