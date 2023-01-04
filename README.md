@@ -375,3 +375,9 @@ Decided to create a bigger project out of P31, so it will take a few days.
 ## Day 46. (31.Des)
 
 - Started work on GRID Demo Page.
+
+## Day 47. (3.Jan)
+
+- Worked on small changes the last few days, but not anything major, thus I wont add those days to the count now. 
+ Added more layers to P31 (more pages and details, updated the navbar as well.)
+
