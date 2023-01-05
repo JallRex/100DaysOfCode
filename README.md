@@ -383,4 +383,14 @@ Decided to create a bigger project out of P31, so it will take a few days.
 
 ## Day 48. (4.Jan)
 
+**Starting Interim Project 32**
+
 -  Following tut from CodeCademy - Attempting to "fix" P32. 
+
+## Day 49. (5.Jan)
+
+- Fixed P32 (completed tutorialProject - debugging a site and making it responsible.)
+
+**Finished Interim Project 32**
+
+
