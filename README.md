@@ -393,4 +393,6 @@ Decided to create a bigger project out of P31, so it will take a few days.
 
 **Finished Interim Project 32**
 
+**Started Interim Project 33**
 
+- Added files and started adding html for the project. Based on an existing site CodeCademy*
