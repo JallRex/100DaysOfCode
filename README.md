@@ -376,7 +376,7 @@ Decided to create a bigger project out of P31, so it will take a few days.
 
 - Started work on GRID Demo Page.
 
-## Day 47. (3.Jan)
+## Day 47. (3.Jan 2023)
 
 - Worked on small changes the last few days, but not anything major, thus I wont add those days to the count now. 
  Added more layers to P31 (more pages and details, updated the navbar as well.)
@@ -396,3 +396,11 @@ Decided to create a bigger project out of P31, so it will take a few days.
 **Started Interim Project 33**
 
 - Added files and started adding html for the project. Based on an existing site CodeCademy*
+
+## Day 50! (6.jan)
+
+    styled project 33, added images, backgrounds and buttons and positioned it.
+    Based on inspiration from CodeCademy Site.
+
+**Finished Interim Project 33**
+
