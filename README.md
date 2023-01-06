@@ -404,3 +404,6 @@ Decided to create a bigger project out of P31, so it will take a few days.
 
 **Finished Interim Project 33**
 
+**Started project 34**
+
+- attempting to build a responsive site based on image added in folder 34*

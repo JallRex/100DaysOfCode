@@ -1,0 +1,155 @@
+/* General */
+
+
+/* spacing between letters "title" */
+
+body{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    background-color: #2a2a2a;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: column;
+    background: url("./images/grains.png") left top no-repeat, url("./images/apples.jpg")right top no-repeat;
+    background-size:50% 100%, 50% 100%;
+
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a{
+    border-style: solid;
+    padding: .2em;
+    color: white;
+}
+
+#navbar p{
+    margin-top: 10em;
+    font-size: .7em;
+    font-style: italic;
+    font-weight: 100;
+    letter-spacing: .3rem;
+
+}
+.h101{
+    text-align: end;
+
+}
+
+.h1havest{
+    text-transform: uppercase;
+
+}
+
+.h1Big{
+    font-size: 6em;
+    letter-spacing: .7rem;
+}
+
+#main{
+
+}
+
+.introPlace{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 3em;
+}
+
+.intro{
+    border-style: solid;
+    width: 20em;
+    left: 37%;
+    height: 12em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro h3{
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+    margin-top: 2em;
+    font-weight: 500;
+}
+
+.intro h5{
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 2.5em;
+    width: fit-content;
+    padding: .5em;
+}
+.description{
+    background-image: url("./images/horizon.jpg");
+    background-size:100% 100%;
+    text-transform: uppercase;
+}
+.choices{}
+.information{
+}
+
+.pictures{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+/* ReadMore */
+.btn{
+    height: 2.7em;
+    width: 10em;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* 3 Images */
+.cereals{
+    background-image: url("./images/corn.jpg");
+    height: 10em;
+    width: 12em;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vegetables{
+    background-image: url("./images/turnips.jpg");
+    height: 10em;
+    width: 12em;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fruits{
+    background-image: url("./images/berries.jpg");
+    height: 10em;
+    width: 12em;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#footer{
+    
+}
+.contact{}
+.maps{}
