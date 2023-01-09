@@ -407,3 +407,10 @@ Decided to create a bigger project out of P31, so it will take a few days.
 **Started project 34**
 
 - attempting to build a responsive site based on image added in folder 34*
+
+
+## Day 51! (9.Jan)
+
+    spent all day building css, redid the work from last time.. looking good now! :)
+
+**finished project 34!**

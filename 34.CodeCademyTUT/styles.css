@@ -1,155 +1,381 @@
-/* General */
 
-
-/* spacing between letters "title" */
-
+/* color: #36454F */
 body{
-    text-align: center;
-    font-family: Helvetica, sans-serif;
-    background-color: #2a2a2a;
+    margin: 0;
+    padding: 1% 10%;
+    background-color: #36454F;
     color: white;
-    margin: 0px;
-    padding: 0px;
-}
-
-#navbar{
-    display: flex;
-    flex-direction: column;
-    background: url("./images/grains.png") left top no-repeat, url("./images/apples.jpg")right top no-repeat;
-    background-size:50% 100%, 50% 100%;
-
-    
-}
-
-.navbar{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    position: relative;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-.navbar a{
-    border-style: solid;
-    padding: .2em;
-    color: white;
+#images{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.8;
+    flex-wrap: wrap;
 }
 
-#navbar p{
-    margin-top: 10em;
-    font-size: .7em;
-    font-style: italic;
-    font-weight: 100;
-    letter-spacing: .3rem;
-
-}
-.h101{
-    text-align: end;
-
+#imgdiv{
+    display: flex;
+    justify-content: center;
+    width: 75em;
+    flex-wrap: wrap;
 }
 
-.h1havest{
+
+#bckimgHalf{
+    width: 50%;
+    height: 30em;
+}
+#bckimg{
+    height: 35em;
+    width: 75em;
+}
+
+#imgdiv2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#trio{
+    height: 20em;
+    width: 25em;
+}
+/* content centering */
+
+#mainmain{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 10px;
+    flex-wrap: wrap;
+}
+
+/* Main stuff */
+
+img{
+    filter: brightness(50%)
+}
+
+body button{
+    cursor: pointer;
+}
+
+
+h1, h2, h3, h4, h5, h6, p{
     text-transform: uppercase;
+}
+
+h1{
+    font-weight: 600;
+    letter-spacing: .2em;
+}
+
+h2{
+    
+    letter-spacing: .2em;
+}
+
+h3{
+    letter-spacing: .5em;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: .2em;
+}
+
+h4{
+
+} */
+/* contents */
+
+/* NAVBAR */
+
+#navbar {
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    display: flex;
+}
+
+
+h3{
+    font-weight: 100;
+    letter-spacing: .2em;
+
+}
+.alink:active, .alink:hover{
+    border-style: solid;
+    padding: 8px;
+
+}
+.alink{
+    padding: 10px;
+    color: white;
+    border-width: 2px;
+    text-decoration: none;
+}
+ .introPlace {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.introPlace p {
+    font-size: .4em;
+    position: relative;
+    top: 1em;
+}
+.h101 {}
+.h1havest {
+    font-size: 5em;
+    position: relative;
+    top: -.3em;
+}
+.intro {
+    position: relative;
+    border: solid 4px;
+    width: 25em;
+    height: 15em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    top: -6em;
+}
+.intro h3{
+    letter-spacing: .5em;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+    height: 20em;
+    width: 15em;
+    word-break:keep-all;
+    flex-wrap: wrap;
+
+}
+.intro h5{
+    position: relative;
+    top: -.6em;
+    color: black;
+    background-color: white;
+    padding: .8em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .9em;
+    flex-wrap: wrap;
 
 }
 
-.h1Big{
-    font-size: 6em;
-    letter-spacing: .7rem;
-}
+
+/* Description  // main */
 
 #main{
-
-}
-
-.introPlace{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-bottom: 3em;
-}
-
-.intro{
-    border-style: solid;
-    width: 20em;
-    left: 37%;
-    height: 12em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.intro h3{
-    letter-spacing: .3rem;
-    text-transform: uppercase;
-    margin-top: 2em;
-    font-weight: 500;
-}
-
-.intro h5{
-    background-color: white;
     color: black;
-    text-transform: uppercase;
-    margin-top: 2.5em;
-    width: fit-content;
-    padding: .5em;
 }
+            
 .description{
-    background-image: url("./images/horizon.jpg");
-    background-size:100% 100%;
-    text-transform: uppercase;
-}
-.choices{}
-.information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
+.description h2{
+    letter-spacing: 0.1em;
+    font-size: 2.5em;
+    position: relative;
+    top: -1.7em;
+    flex-wrap: wrap;
+}
+
+
+.description h5{
+    letter-spacing: 0.1em;
+    font-size: 1.4em;
+    position: relative;
+    top: -5em;
+}
+
+.description p{
+    position: relative;
+    top: -8em;
+    word-wrap: normal;
+    width: 50em;
+}
+        
+.btn{
+    color: white;
+    background-color: black;
+    padding: .9em;
+    position: relative;
+    top: -9em;
+}
 .pictures{
     display: flex;
     justify-content: center;
-    margin: 1em;
-}
-
-/* ReadMore */
-.btn{
-    height: 2.7em;
-    width: 10em;
-    background-color: black;
+    align-items: center;
     color: white;
-    text-transform: uppercase;
+    position: relative;
+    top: -7em;
+    flex-wrap: wrap;
 }
 
-/* 3 Images */
-.cereals{
-    background-image: url("./images/corn.jpg");
-    height: 10em;
-    width: 12em;
-    margin: 1em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.vegetables{
-    background-image: url("./images/turnips.jpg");
-    height: 10em;
-    width: 12em;
-    margin: 1em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.fruits{
-    background-image: url("./images/berries.jpg");
-    height: 10em;
-    width: 12em;
-    margin: 1em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.fruits h5{
+    position: relative;
+    top: -6em;
 }
 
+.arrowDiv{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    top: -12.3em;
+    flex-wrap: wrap;
+}
+
+.yolobtnleft{
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.yolobtnright{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.arrow{
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 6px;
+    background-color: transparent;
+
+}
+
+.choices{
+    display: flex;
+    color: white;
+    font-size: 1.5em;
+    position: relative;
+    top: -1em;
+}
+
+.choiceA{
+    margin: 0em 5em;
+}
+
+
+
+.infochoice img{
+    filter: brightness(300%);
+    filter: contrast(3);
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 7em;
+}
+.infochoice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.infochoice button{
+    padding: 1em;
+    margin-bottom: 3em;
+}
+
+.infochoice h3{
+    font-size: 1.3em;
+}
+
+
+.innovate{
+    color: white;
+    border: solid 2px;
+    width: 50em;
+    position: relative;
+}
+
+.innovate button{
+    padding: 1em;
+    position: relative;
+    top: 1.6em;
+}
 
 
 #footer{
+    height: 15em;
+    position: relative;
+    top: 15em;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1em;
+}
+.harvest1{
     
 }
-.contact{}
+.harvest1 h1{
+    font-size: 2em;
+}
+.harvest1 p{
+    position: relative;
+    top: -2em;
+    text-align: left;
+    font-size: 0.8em;
+}
+
+.telf{
+
+}
+.telf h1{
+    
+}
+.telf p{
+    text-align: left;
+
+}
+.social a{
+    color: white;
+    text-decoration: none;
+
+}
 .maps{}
+.map {
+}
+.map img{
+    width: 75em;
+    height: 20em;
+}
